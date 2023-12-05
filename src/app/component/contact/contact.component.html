@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>   
+   
+</head>
+<body>
+    <div class="container">
+        <div class="contact-parent">
+            <div class="contact-child child1">
+                <p><i class="fas fa-map-marker-alt"></i> Address <br />
+                    <span>280 Jane Street<br />Toronto, CA</span>
+                </p>
+
+                <p><i class="fas fa-phone-alt"></i> Let's Talk <br />
+                    <span>+14168823349</span>
+                </p>
+
+                <p><i class="far fa-envelope"></i> General Support <br />
+                    <span>Benjamin Sarras</span>
+                </p>
+            </div>
+
+            <div class="contact-child child2">
+                <div class="inside-contact">
+                    <h2>Contact Me</h2>
+                    <h3><span id="confirm"></span></h3>
+                    <form>
+                        <p>Name *</p>
+                        <input id="txt_name" type="text" required>
+
+                        <p>Email *</p>
+                        <input id="txt_email" type="text" required>
+
+                        <p>Phone *</p>
+                        <input id="txt_phone" type="text" required>
+
+                        <p>Subject *</p>
+                        <input id="txt_subject" type="text" required>
+
+                        <p>Message *</p>
+                        <textarea id="txt_message" rows="4" required></textarea>
+                        
+                        <input type="submit" id="btn_send" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
